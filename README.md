@@ -4,7 +4,7 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 
 ## Links
 
-- [Solution URL](https://rest-countries-api-with-color-theme-switcher-fm.vercel.app/)
+- [Solution URL](https://url-shortening-api-landing-page-fm-sebaderendarz.vercel.app/)
 
 ## Getting Started
 
