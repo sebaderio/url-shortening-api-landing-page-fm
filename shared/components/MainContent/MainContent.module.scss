@@ -1,0 +1,13 @@
+.main__content {
+    background-color: var(--COLOR-NEUTRAL-2);
+
+    .main__content__search {
+        top: -4rem;
+        position: relative;
+        padding-bottom: 1rem;
+    }
+
+    .main__content__statistics {
+        padding-bottom: 7rem;
+    }
+}

@@ -1,0 +1,27 @@
+.banner {
+    width: 100%;
+    background-color: var(--COLOR-PRIMARY-2);
+    background-image: url("/bg-boost-desktop.svg");
+    background-size: cover;
+    padding: 3rem 0;
+
+    .banner__title {
+        font-size: 1.7rem;
+        font-weight: var(--FONT-BOLD);
+        color: var(--COLOR-NEUTRAL-1);
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .banner__button {
+        display: flex;
+        justify-content: center;
+
+        .banner__button__text {
+            font-size: 0.85rem;
+            font-weight: var(--FONT-BOLD);
+            padding: 0.6rem 1.6rem;
+            text-align: center;
+        }
+    }
+}

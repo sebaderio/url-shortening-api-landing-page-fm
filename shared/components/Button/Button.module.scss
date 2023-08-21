@@ -1,0 +1,24 @@
+.button__container {
+    background-color: var(--COLOR-NEUTRAL-1);
+    border-radius: 0.5rem;
+
+    .button {
+        background-color: var(--COLOR-PRIMARY-2);
+        color: var(--COLOR-NEUTRAL-1);
+        width: fit-content;
+        cursor: pointer;
+        border-radius: inherit;
+
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+
+    .primary {
+        background-color: var(--COLOR-PRIMARY-1);
+    }
+}
+
+.rounded {
+    border-radius: 3rem;
+}
