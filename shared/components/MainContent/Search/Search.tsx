@@ -1,9 +1,9 @@
 "use client";
-import { useState } from "react";
+import { KeyboardEvent, KeyboardEventHandler, useState } from "react";
 
 import { appConfig } from "@/config";
 import Button from "@/shared/components/Button";
-import { generateString, isValidHttpUrl } from "@/shared/utils";
+import { isValidHttpUrl } from "@/shared/utils";
 
 import styles from "./Search.module.scss";
 
@@ -51,7 +51,9 @@ const Search = () => {
     const [inputText, setInputText] = useState("");
     const [shortenedLinks, setShortenedLinks] = useState<ShortenedLink[]>([]);
 
-    const handleKeyDown = (event: KeyboardEvent) => {
+    const handleKeyDown: KeyboardEventHandler<HTMLInputElement> = (
+        event: KeyboardEvent<HTMLInputElement>
+    ) => {
         if (event.key === "Enter") {
             fetchShorteningResults();
         }
