@@ -4,7 +4,7 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 
 ## Links
 
-- [Solution URL](https://url-shortening-api-landing-page-fm-sebaderendarz.vercel.app/)
+- [Live site URL](https://url-shortening-api-landing-page-fm-sebaderendarz.vercel.app/)
 
 ## Getting Started
 
